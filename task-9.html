@@ -1,0 +1,33 @@
+<button id="incre">Increment</button>
+<button id="decre">Decrement</button>
+<p id="result"></p>
+
+<script>
+    let count =0;
+    const add =document.querySelector("#incre");
+    const result =document.querySelector("#result");
+
+    add.addEventListener("click",function(){
+        count++;
+        console.log(count);
+        result.innerHTML = count;
+       
+    })
+
+
+    const sub =document.querySelector("#decre");
+
+    sub.addEventListener("click",function(){
+        if(count>0){
+            count--;
+            console.log(count);
+            result.innerHTML = count;
+          
+        }
+    })
+
+    
+   
+
+
+</script>
