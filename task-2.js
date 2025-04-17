@@ -12,6 +12,5 @@ function findLongestPalindrome(str) {
     return longest;
   } 
   
-  // Example:
   console.log(findLongestPalindrome("babad")); // "bab" or "aba"
   
